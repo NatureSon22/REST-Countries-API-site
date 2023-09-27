@@ -1,0 +1,64 @@
+@media (min-width: 500px) {
+    .page-main .page-box button {
+        font-size: 1.2rem;
+    }
+
+    .page-info__country h2 {
+        font-size: 2rem;
+    }
+
+    .page-info__country .page-info__main {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 900px) {
+    .page-header p:nth-child(1) {
+        font-size: 1.25rem;
+    }
+
+    .page-filter.page-flex {
+        flex-direction: row;
+    }
+
+    .page-filter__search {
+        width: 50em;
+    }
+
+    .page-result {
+        padding-inline: 0;
+        gap: 5em;
+    }
+
+    .page-box .page-info {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .page-result .page-box button {
+        margin-bottom: 7em;
+    }
+
+    
+}
+
+@media (min-width: 1200px) {
+
+    .page-box .page-info {
+        gap: 10em;
+    }
+
+    .page-info__country .page-card__border {
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .page-info .page-info__country {
+        font-size: 1.1rem;
+    }
+
+    .page-info .page-img {
+        width: 110%;
+    }
+}

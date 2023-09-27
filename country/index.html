@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <script src="https://kit.fontawesome.com/ce744f4aea.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/result.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;900&family=Barlow:wght@200;300;400;600;800&family=Epilogue:wght@500&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Inter:wght@400;700;800&family=Josefin+Sans:wght@400;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Libre+Franklin:wght@300;600;700&family=Montserrat:wght@700&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,600;6..12,800&family=Open+Sans:wght@400;500&family=Patrick+Hand&family=Playfair+Display:wght@600;900&family=Poppins:wght@400;500;700&family=Roboto:ital,wght@1,500&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <script type="module" src="js/script.js" defer></script>
+    <div class="container">
+      <header class="page-header">
+        <section class="page-box page-flex">
+          <p>Where in the world?</p> 
+
+          <div class="page-flex page-toggle" id="toggle-theme">
+            <i class="fa-solid fa-moon"></i>
+            <p>Dark Mode</p>
+          </div>
+        </section>
+      </header>
+
+      <main class="page-main">
+        <section class="page-box">
+          <div class="page-filter page-flex">
+            <div class="page-filter__search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" placeholder="Search for a country..." id="input">
+            </div>
+
+            <div class="page-filter__box page-flex">
+              <p class="country">Filter by Region</p>
+              <i class="fa-solid fa-angle-up"></i>
+
+              <ul class="page-filter__options">
+                <li>Africa</li>
+                <li>America</li>
+                <li>Asia</li>
+                <li>Europe</li>
+                <li>Oceania</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="page-result">
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+

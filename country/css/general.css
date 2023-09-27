@@ -1,0 +1,34 @@
+:root {
+    --clr-primary:hsl(209, 23%, 22%);
+    --clr-bg:hsl(207, 26%, 17%);
+    --clr-text:hsl(0, 0%, 100%);
+    --clr-hover-bg:hsl(207, 26%, 17%);
+    --clr-hover-text:hsl(207, 26%, 17%);
+    --clr-hover-effect:hsl(208, 22%, 64%);
+
+    --ff-main: 'Nunito Sans', sans-serif;
+}
+
+.light-mode {
+    --clr-primary: hsl(0, 0%, 100%);
+    --clr-bg:hsl(0, 0%, 98%);
+    --clr-text:hsl(0, 0%, 0%);
+    --clr-hover-bg:hsl(210, 18%, 93%);
+    --clr-hover-effect:hsl(208, 68%, 7%);
+}
+
+.container {
+    font-family: var(--ff-main);
+    color: var(--clr-text);
+}
+
+.page-box {
+    width: min(90%, 100em);
+    margin-inline: auto;
+}
+
+.page-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
